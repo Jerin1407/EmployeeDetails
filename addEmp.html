@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Details</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center text-primary">Add Employee Form</h1>
+        <div class="row mt-5">
+            <div class="col-lg-3"></div>
+            <div class="col-lg-6 border rounded p-3">
+            <form>
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="floatingInputId" placeholder="Employee Id" required>
+                    <label for="floatingInputId">Employee Id</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="floatingInputName" placeholder="Employee Name" required>
+                    <label for="floatingInputName">Employee Name</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="floatingInputDesg" placeholder="Employee Desgnation" required>
+                    <label for="floatingInputDesg">Employee Desgnation</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="floatingInputSalary" placeholder="Employee Salary" required>
+                    <label for="floatingInputSalary">Employee Salary</label>
+                </div>
+                <div class="text-center">
+                    <input value="Add" onclick="add()" type="btn" class="btn btn-success" readonly>
+                </div>
+            </form>
+        </div>
+        <div class="col-lg-3"></div>
+    </div>
+</div>
+</body>
+<script src="emp.js">
+</script>
+</html>
